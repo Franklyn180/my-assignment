@@ -20,7 +20,7 @@ jobs:
     - name: Set-up Pages
       uses: actions/configure@4
 
-    - name: Upload Artifacts
+    - name: Uploads Artifacts
       uses: actions/upload-pages-artifact@v4
       with:
         path: ./
